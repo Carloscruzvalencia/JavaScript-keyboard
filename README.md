@@ -41,7 +41,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 <summary>⚙️ documentacion del proyecto ⚙️</summary>
 
 1. Creacion de la pagina web en figma
-    ![](pr-project\project-preview.png)
+    ![](pr-project/project-preview.png)
 
 </details>
 
