@@ -1,7 +1,66 @@
-body{
+body {
     background-image: url("../../media/img/main-bk.png");
-    main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    main {
         width: 100vw;
         height: 100vh;
+        display: grid;
+
+        section:nth-child(1) {
+            display: grid;
+            height: 49vh;
+            grid-template-columns: 1fr 1fr;
+
+            div {
+                background-color: red;
+                display: grid;
+                align-items: center;
+                justify-items: center;
+                p{
+                    font-size: 2.5vw;
+                    font-weight: bold;
+                    color: #fff;
+                }
+                div {
+                    background-color: #fff;
+                    border-radius: 1vw;
+                    width: 7vw;
+                    height: 13vh;
+                    p{
+                        font-size: 1.5vw;
+                        font-weight: bold;
+                        color: #000;
+                    }
+                }
+
+            }
+
+            div:nth-child(2) {
+                background-color: blue;
+            }
+
+            input[type=text] {
+                justify-self: center;
+                align-self: center;
+                grid-area: 2/1/2/3;
+                width: 50vw;
+                height: 5vh;
+                border: none;
+                border-radius: 1vw;
+            }
+        }
+
+        section:nth-child(2) {
+            width: 100vw;
+            height: 50vh;
+            background-color: #d9d9d9b4;
+            border-radius: 2vw 2vw 0vw 0vw;
+            border-top: solid white 0.4vw;
+            align-self: end;
+
+        }
     }
 }
