@@ -77,13 +77,14 @@ body {
         section:nth-child(2) {
             width: 100vw;
             height: 50vh;
-            background-color: #d9d9d9b4;
+            background-color: rgba(217, 217, 217, .7058823529);
             border-radius: 2vw 2vw 0vw 0vw;
-            border-top: solid white 0.4vw;
+            border-top: solid #fff 0.4vw;
             align-self: end;
-            display: grid;
             padding-left: 1vw;
             padding-top: 0.5vw;
+            display: grid;
+            grid-template-rows: repeat(5, 5vw);
 
             .key-block {
                 display: grid;
@@ -104,6 +105,65 @@ body {
                         font-size: 1.5vw;
                     }
                 }
+            }
+        }
+        .key-block:nth-child(1){
+            div:nth-child(1) {
+                background-color: red;
+                width: 6vw;
+            }
+            div:last-child {
+                background-color: red;
+                width: 6vw;
+            }
+        }
+        .key-block:nth-child(2){
+            div:nth-child(1) {
+                background-color: red;
+                width: 6vw;
+            }
+            div:last-child {
+                background-color: red;
+                width: 6vw;
+            }
+        }
+        .key-block:nth-child(3){
+            div:nth-child(1) {
+                background-color: red;
+                width: 6vw;
+            }
+
+        }
+        .key-block:nth-child(4){
+            div:nth-child(1) {
+                background-color: red;
+                width: 6vw;
+            }
+            div:last-child {
+                background-color: red;
+                width: 6vw;
+            }
+        }
+        .key-block:nth-child(5){
+            div:nth-child(1) {
+                background-color: red;
+                width: 6vw;
+            }
+            div:nth-child(5) {
+                background-color: red;
+                width: 30vw;
+            }
+            div:nth-child(6) {
+                background-color: red;
+                width: 6vw;
+            }
+            div:nth-child(7) {
+                background-color: red;
+                width: 6vw;
+            }
+            div:nth-child(9) {
+                background-color: red;
+                width: 6vw;
             }
         }
     }
