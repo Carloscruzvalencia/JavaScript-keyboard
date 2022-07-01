@@ -13,43 +13,64 @@ body {
             display: grid;
             height: 49vh;
             grid-template-columns: 1fr 1fr;
+            grid-column-gap: 15vw;
 
             div {
-                background-color: red;
-                display: grid;
                 align-items: center;
                 justify-items: center;
-                p{
+                display: grid;
+                justify-self: end;
+
+                p {
                     font-size: 2.5vw;
                     font-weight: bold;
                     color: #fff;
                 }
+
                 div {
-                    background-color: #fff;
+                    background-color: rgb(255, 255, 255);
                     border-radius: 1vw;
                     width: 7vw;
                     height: 13vh;
-                    p{
+                    justify-self: center;
+
+                    p {
                         font-size: 1.5vw;
                         font-weight: bold;
                         color: #000;
+                        justify-self: center;
                     }
                 }
-
             }
 
             div:nth-child(2) {
-                background-color: blue;
+                justify-self: start;
+
+                div {
+                    border-radius: 1vw;
+                    width: 7vw;
+                    height: 13vh;
+
+                    p {
+                        font-size: 1.5vw;
+                        font-weight: bold;
+                        color: #000;
+                        justify-self: center;
+                    }
+
+                }
             }
 
             input[type=text] {
-                justify-self: center;
-                align-self: center;
-                grid-area: 2/1/2/3;
+                place-self: center;
+                grid-area: 2 / 1 / 2 / 3;
                 width: 50vw;
                 height: 5vh;
                 border: none;
                 border-radius: 1vw;
+                font-size: 1vw;
+                padding-left: 0.5vw;
+                outline: none;
             }
         }
 
@@ -60,7 +81,30 @@ body {
             border-radius: 2vw 2vw 0vw 0vw;
             border-top: solid white 0.4vw;
             align-self: end;
+            display: grid;
+            padding-left: 1vw;
+            padding-top: 0.5vw;
 
+            .key-block {
+                display: grid;
+                grid-template-columns: repeat(14, 1fr);
+
+                div {
+                    background-color: #108fab;
+                    width: 3vw;
+                    height: 5vh;
+                    border-radius: 0.5vw;
+                    border: solid #000;
+                    box-shadow: -0.2vw 0.3vw 0vw #000;
+                    display: grid;
+
+                    p {
+                        justify-self: center;
+                        align-self: center;
+                        font-size: 1.5vw;
+                    }
+                }
+            }
         }
     }
 }
