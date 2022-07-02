@@ -88,7 +88,22 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```
    <img src="pr-project/3.gif" aling="center" width="100%"></img>
 5. Se añaden efectos a las teclas del teclado al ser presionadas por el usuario
-    ``imagen no disponible``
+    ```javascript
+        // Esta funcion se ejecuta cada vez que se presiona una tecla
+        //como es la misma funcion para cada tecla a qui se muestra como se aria solo una vez
+        if (name == 'a' || name == 'A') {
+
+        // Cambia el fondo de la tecla presionada y el borde
+        document.getElementById("key-a").style.border = "white solid";
+        document.getElementById("key-a").style.background = "#48b7d0";
+
+        // despues de un segundo cambia el fondo y el borde a su valor original
+        setTimeout(function () {
+            document.getElementById("key-a").style.border = "black solid";
+            document.getElementById("key-a").style.background = "#108fab";
+        }, 100);
+    }
+    ```
 </details>
 
 <details >
