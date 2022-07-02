@@ -90,7 +90,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 5. Se añaden efectos a las teclas del teclado al ser presionadas por el usuario
     ```javascript
         // Esta funcion se ejecuta cada vez que se presiona una tecla
-        //como es la misma funcion para cada tecla a qui se muestra como se aria solo una vez
+        //como es la misma funcion para cada tecla a qui se muestra como se hace solo una vez
         if (name == 'a' || name == 'A') {
 
         // Cambia el fondo de la tecla presionada y el borde
