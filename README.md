@@ -1,5 +1,7 @@
 # JavaScript-keyboard
 
+- visita la pagina en el siguente link: [Javascript-keyboard](https://carloscruzvalencia.github.io/JavaScript-keyboard/)
+
 ## Inpiracion del proyecto & objetivo
 
 -  El objetivo del proyecto es crear un teclado digital en JavaScript que permita la entrada de texto. 
@@ -96,11 +98,13 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
         // Cambia el fondo de la tecla presionada y el borde
         document.getElementById("key-a").style.border = "white solid";
         document.getElementById("key-a").style.background = "#48b7d0";
+        document.getElementById("key-a").style.boxShadow = "none";
 
         // despues de un segundo cambia el fondo y el borde a su valor original
         setTimeout(function () {
             document.getElementById("key-a").style.border = "black solid";
             document.getElementById("key-a").style.background = "#108fab";
+            document.getElementById("key-a").style.boxShadow = "-0.2vw 0.3vw 0vw #000";
         }, 100);
     }
     ```
