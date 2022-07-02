@@ -44,13 +44,14 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
 1. Creacion de la pagina web en figma
     ![](pr-project/project-preview.png)
-1. Maketa de la pagina web en html y css/sass
+1. Maketacion de la pagina web en html y css/sass
     ![](pr-project/1.png)
     ``codigo del landing page`` [_landing.scss](assets/styles/sass/layouts/_landing.scss)
     ``codigo del teclado`` [_keys.scss](assets/styles/sass/components/_keys.scss)
 
 2. Se añaden efectos a las teclas del teclado
-    ![](pr-project/1.gif)
+   <img src="pr-project/1.gif" aling="center"></img>
+    <!-- ![](pr-project/1.gif) -->
 3. Se crea el javascript para detectar la tecla presionada
     ```javascript
     document.addEventListener('keydown', (event) => {
@@ -76,7 +77,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     }, false);
     ```
     ![](pr-project/3.gif)
-5. Se añaden efectos a las teclas del teclado
+5. Se añaden efectos a las teclas del teclado al ser presionadas por el usuario
     ``imagen no disponible``
 </details>
 
