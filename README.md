@@ -50,8 +50,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ``codigo del teclado`` [_keys.scss](assets/styles/sass/components/_keys.scss)
 
 2. Se añaden efectos a las teclas del teclado
-   <img src="pr-project/1.gif" aling="center"></img>
-    <!-- ![](pr-project/1.gif) -->
+   <img src="pr-project/1.gif" aling="center" width="100%"></img>
 3. Se crea el javascript para detectar la tecla presionada
     ```javascript
     document.addEventListener('keydown', (event) => {
@@ -59,7 +58,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
             cosole.log(name);
     }, false);
     ```
-    ![](pr-project/2.gif)
+   <img src="pr-project/2.gif" aling="center" width="100%"></img>
 4. Pasamos el input del keyboard a una lista 
    
     ```javascript
@@ -76,7 +75,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
             document.querySelector('input[name="input-text"]').value = string;
     }, false);
     ```
-    ![](pr-project/3.gif)
+   <img src="pr-project/3.gif" aling="center" width="100%"></img>
 5. Se añaden efectos a las teclas del teclado al ser presionadas por el usuario
     ``imagen no disponible``
 </details>
