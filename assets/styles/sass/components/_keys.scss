@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     align-items: center;
+
     // stilos de las teclas del teclado
     div {
         background-color: #108fab;
@@ -18,7 +19,8 @@
             font-size: 1.5vw;
         }
     }
-    div:hover{
+
+    div:hover {
         background-color: #48b7d0;
         border: solid rgb(255, 255, 255);
         box-shadow: none;
@@ -27,21 +29,24 @@
 
 // Cada keyblock tiene un nth-child que se refiere a la fila del teclado nth-child(1) = fila uno del teclado
 // dentro estan los divs que representan las teclas que tienen un nth-child que se refiere a la posicion de la tecla en la fila
-.key-block:nth-child(1){
+.key-block:nth-child(1) {
     div:nth-child(1) {
         width: 6vw;
         margin-right: 2vh;
     }
+
     div:last-child {
         width: 6vw;
         transform: translate(-0.3vw);
     }
 }
-.key-block:nth-child(2){
+
+.key-block:nth-child(2) {
     div:nth-child(1) {
         width: 6vw;
         margin-right: 2vh;
     }
+
     div:last-child {
         width: 5vw;
         height: 15vh;
@@ -51,17 +56,20 @@
         transform: translate(-1.5vw);
     }
 }
-.key-block:nth-child(3){
+
+.key-block:nth-child(3) {
     div:nth-child(1) {
         width: 8vw;
         margin-right: 2vh;
     }
 
 }
-.key-block:nth-child(4){
+
+.key-block:nth-child(4) {
     div:nth-child(1) {
         width: 6vw;
     }
+
     div:last-child {
         width: 12.5vw;
         position: absolute;
@@ -69,41 +77,51 @@
         margin-right: 1.5vw;
     }
 }
-.key-block:nth-child(5){
+
+.key-block:nth-child(5) {
     div:nth-child(1) {
         width: 6vw;
         margin-right: 1vw;
     }
+
     div:nth-child(2) {
         width: 6vw;
         margin-right: 1vw;
     }
+
     div:nth-child(3) {
         width: 4vw;
-        margin-right:1vw;
+        margin-right: 1vw;
 
     }
+
     div:nth-child(4) {
         width: 6vw;
         margin-right: 2vw;
     }
+
     div:nth-child(5) {
         width: 38vw;
         margin-right: 2vw;
     }
+
     div:nth-child(6) {
         width: 6vw;
-        margin-right:1vw;
+        margin-right: 1vw;
     }
+
     div:nth-child(7) {
         width: 6vw;
-        margin-right:1vw;
+        margin-right: 1vw;
     }
+
     div:nth-child(8) {
         width: 6vw;
         margin-right: 1vw;
     }
+
     div:nth-child(9) {
         width: 7.5vw;
     }
 }
+
