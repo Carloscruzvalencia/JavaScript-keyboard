@@ -47,13 +47,14 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 1. Maketacion de la pagina web en html y css/sass
     ![](pr-project/1.png)
     ``codigo del landing page`` [_landing.scss](assets/styles/sass/layouts/_landing.scss)
-    
+
     ``codigo del teclado`` [_keys.scss](assets/styles/sass/components/_keys.scss)
 
 2. Se añaden efectos a las teclas del teclado
    <img src="pr-project/1.gif" aling="center" width="100%"></img>
    ```scss
     .key-block {
+        // Al pasar el mouse por encima de la tecla se añade un efecto
         div:hover {
             background-color: #48b7d0;
             border: solid rgb(255, 255, 255);
