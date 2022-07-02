@@ -1,15 +1,9 @@
 // Add event listener on keydown
 list = [];
 
-
-
-
-
 document.addEventListener('keydown', (event) => {
     // Variable que optiene el valor de la tecla presionada
     var name = event.key;
-
-
     list.push(name);
 
     // comprueba la si la tecla presionada es la indicada
@@ -28,11 +22,6 @@ document.addEventListener('keydown', (event) => {
     // }
     // Eliminamos las , de la lista
     var string = list.join("");
-    console.log(string); // -> 012345
-
     // pasamos el valor de la lista a el input text
     document.querySelector('input[name="input-text"]').value = string;
-
-
-
 }, false);

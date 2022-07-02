@@ -8,7 +8,7 @@ body {
         width: 100vw;
         height: 100vh;
         display: grid;
-
+        // primera secion que contiene el output de las funciones
         section:nth-child(1) {
             display: grid;
             height: 49vh;
@@ -73,7 +73,8 @@ body {
                 outline: none;
             }
         }
-
+        
+        // segunda seccion que contiene el layout del teclado
         section:nth-child(2) {
             width: 100vw;
             height: 50vh;

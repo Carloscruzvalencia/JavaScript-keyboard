@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     align-items: center;
-
+    // stilos de las teclas del teclado
     div {
         background-color: #108fab;
         width: 6vw;
@@ -24,6 +24,9 @@
         box-shadow: none;
     }
 }
+
+// Cada keyblock tiene un nth-child que se refiere a la fila del teclado nth-child(1) = fila uno del teclado
+// dentro estan los divs que representan las teclas que tienen un nth-child que se refiere a la posicion de la tecla en la fila
 .key-block:nth-child(1){
     div:nth-child(1) {
         width: 6vw;
